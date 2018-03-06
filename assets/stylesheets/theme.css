@@ -25,12 +25,10 @@ h1 {
   text-decoration-style: double;
   text-decoration-color: #702742;
   font-size: 45px;
+  box-sizing: border-box;
 }
 #mepic {
   width: 30%;
-}
-#leaf {
-  width: 500px;
 }
 p {
 text-align: left;
