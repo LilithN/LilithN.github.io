@@ -7,33 +7,43 @@ body {
   background-color: black;
 
 }
-.main {
-  box-sizing: border-box;
-  text-align: center;
-  max-width: 1020px;
-  margin: auto;
-  background: rgba(102, 153, 51, 0.6);
-}
+
 h1 {
   position: relative;
   top: 3px;
   height: 68px;
   text-align: center;
-
-
 }
-#mepic {
+
+.mepic {
   width: 30%;
-  opacity: 1;
   border-style: double;
-  align-items: left;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 
 }
+
 p {
-text-align: left;
 padding-left: 14px;
+margin-top: 20px;
 }
-#header {
+
+.header {
   border-style: groove;
-  background-color: rgb(170, 63, 57);
+  background-color: rgba(170, 63, 57, 0.6);
+}
+
+.leaf {
+  opacity: 0.8;
+  width: 31px;
+}
+
+.main {
+  position: relative;
+  box-sizing: border-box;
+  max-width: 1020px;
+  background: rgba(102, 153, 51, 0.6);
+  align-content: center;
 }
