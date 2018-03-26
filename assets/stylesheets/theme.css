@@ -13,6 +13,7 @@ h1 {
   top: 3px;
   height: 68px;
   text-align: center;
+  display: inline-block;
 }
 
 .mepic {
@@ -41,9 +42,14 @@ margin-top: 20px;
 }
 
 .main {
-  position: relative;
-  box-sizing: border-box;
+  margin: auto;
   max-width: 1020px;
   background: rgba(102, 153, 51, 0.6);
-  align-content: center;
+
+}
+
+.title {
+  display: inline-block;
+  margin: auto;
+  margin-left: 10px;
 }
